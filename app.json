@@ -1,0 +1,31 @@
+{
+  "name": "Romeo-Md",
+  "description": "Javascript WhatsApp bot made by CH ABDUL REHMAN",
+  "logo": "https://i.ibb.co/CR4q9WP/temp-image.jpg",
+  "keywords": ["bot,Romeomd,Romeo-Md,ROMEO-MD,ROMEOMD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "https://i.ibb.co/tpxtJZgx/temp-image.jpg",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "HEY GUYS I AM ALIVE NOW",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
